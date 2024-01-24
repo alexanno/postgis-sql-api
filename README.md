@@ -3,7 +3,7 @@ Simple SQL-API for PostGIS. Outputs GeoJSON.
 
 Host as a Node web app or as a function app or similar
 
-The db_user should have _only_ SELECT permissions. There are no security measures in the function. Use at own risk! If the query gives an error - a 500 without any text is returned as output. As a poor man's measure for some security. 
+The db_user should have _only_ SELECT permissions. There are no security measures in the function. Use at own risk! If the query failes an error is casted without any text is returned as output. As a poor man's measure for some security. 
 
 Usage example
 ```
